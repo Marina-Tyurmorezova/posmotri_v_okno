@@ -78,6 +78,7 @@ fieldset {
   display: flex;
   align-items: center;
   width: fit-content;
+  cursor: pointer;
 }
 
 .search-form__fieldset-title {
@@ -283,8 +284,8 @@ button:active {
   outline: none;
 }
 
-.content__card-link_current:active {
-  background-color: currentColor;
+.content__card-link:active {
+  background-color: #545050;
 }
 
 .content__card-link:focus {
@@ -293,7 +294,7 @@ button:active {
 
 .content__card-link:focus-visible {
   outline: 1px solid #FFFFFF;
-  position:relative;
+  position: relative;
 }
 
 .content__card-link:hover {
